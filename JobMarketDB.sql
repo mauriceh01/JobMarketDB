@@ -45,13 +45,13 @@ USE JobMarketDB;
 
 CREATE TABLE Employers (
     EmployerID         			INT PRIMARY KEY AUTO_INCREMENT,
-	FoundedYear        			INT,
+    FoundedYear        			INT,
     CompanyName       			VARCHAR(255),
     Industry           			VARCHAR(100),
     Website            			VARCHAR(255),
     Headquarters       			VARCHAR(255),
     CompanySize        			VARCHAR(50),
-	GlassdoorRating    			DECIMAL(3,2)
+    GlassdoorRating    			DECIMAL(3,2)
 );
 
 -- =================================================================================================
